@@ -43,3 +43,6 @@ open-banking-api-ux-prototype/
 - [ ] API Definition (OpenAPI)
 - [ ] Standardvergleich
 - [ ] README finalisieren
+
+## Preview von Screenshots
+
