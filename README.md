@@ -56,3 +56,23 @@ Ein Drittanbieter (Third Party Provider, TPP) möchte nach Zustimmung des Kunden
 ### Ablauf (vereinfachter UX-Flow)
 1. Der Kunde wählt innerhalb der TPP-Anwendung „Bankkonto verbinden“
 2. Auswahl der Bank (z. B. „Bank AG“)
+3. 3. Weiterleitung zur Bank (Redirect mit OAuth2-Flow)
+4. Login bei Bank (2-Faktor möglich)
+5. Anzeige der Konten, Auswahl und Autorisierung durch den Kunden
+6. Rückleitung zur TPP
+7. Zugriff auf /accounts-Endpunkt durch TPP
+
+### Sicherheitsmechanismen
+- OAuth2 mit Access Tokens
+- Konsent-ID und Zeitlimit für Zugriff
+- 2FA durch Banksystem bei Authentifizierung
+
+### Relevante API-Calls (gemäß NextGenPSD2 oder Swiss OB)
+- `GET /accounts`
+- `GET /accounts/{account-id}/transactions`
+- `GET /consents/{consent-id}`
+
+---
+
+(Weitere Inhalte folgen als separate Module: User Stories, OpenAPI YAML usw.)
+
