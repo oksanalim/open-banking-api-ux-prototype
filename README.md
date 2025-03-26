@@ -15,6 +15,7 @@ open-banking-api-ux-prototype/
 │   ├─ use-case-AIS.md           <- Kontoinformationszugriff (AIS)
 │   ├─ use-case-PIS.md           <- Zahlungsauslösung (PIS)
 │   ├─ user-stories.md           <- User Stories (Endnutzer, TPP, Bank)
+│   ├─ ux-design.md              <- Struktur des Axure-Prototyps
 │   ├─ requirements.md           <- API- und UX-Anforderungen
 │   ├─ api-spec-openapi.yaml     <- Technische OpenAPI-Spezifikation
 │   └─ standards-comparison.md   <- Vergleich gängiger Standards (NextGenPSD2, OpenWealth, Swiss OB)
